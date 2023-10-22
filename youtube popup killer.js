@@ -17,17 +17,7 @@
   var toggle = false;
   const video = document.querySelectorAll(".video-stream")[0];
   const container = document.querySelectorAll(".ytp-unmute")[0];
-  /*container.addEventListener("click", function(){
-      console.log(toggle)
-      if (!toggle) {
-        event_type = 2;
-      } else {
-        event_type = 1;
-      }
-      toggle = !toggle;
-
-      //toggle = true;
-  });*/
+  
   pauseFind().addEventListener("click", function(){
       console.log(toggle)
       if (!toggle) {
@@ -42,8 +32,6 @@
   console.log(container);
   console.log(video);
   setInterval(() => {
-     //event_type = 1;
-     //console.log(flag);
     if (!!popupFind()) {
       removePopup();
       if (debug) console.log("remove popup");
@@ -52,10 +40,7 @@
       //if (video.paused) video.play();
       //if (debug) console.log("done ");
     }
-    /*if (video.paused && ( event_type == 0 || event_type == 1 ) ){
-        video.play();
-        console.log("unpaused");
-    }*/
+    
   }, 500);
   setInterval(() => {
 
