@@ -29,6 +29,7 @@
 
       //toggle = true;
   });
+  video.addEventListener('ended', function(){event_type = 4;});
   console.log(container);
   console.log(video);
   setInterval(() => {
