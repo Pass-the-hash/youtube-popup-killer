@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         youtube popup killer
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       Pass the hash (original code written by Selbereth)
 // @match        https://*.youtube.com/*
